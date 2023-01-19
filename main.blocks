@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="O:[3r:8j%%*yQe?J%]:8">mySprite</variable><variable type="KIND_SpriteKind" id="SeToGdEkVU9yIP`vnzdm">Player</variable><variable type="KIND_SpriteKind" id="Z;4KSKf.:rY_dW;agV$/">Projectile</variable><variable type="KIND_SpriteKind" id="@1?{Of75h+5~z|AT1NQ%">Food</variable><variable type="KIND_SpriteKind" id="IPNVf0hNc=MVF2jNty(s">Enemy</variable></variables><block type="pxt-on-start" id="4}?BFoV~7$H6($r*Wy-O" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="k`E4/{HIcj^y^iEY[Z|V"><field name="VAR" id="O:[3r:8j%%*yQe?J%]:8">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="vDWP`1QJvp~T`fHfpW,C"><value name="img"><shadow type="screen_image_picker" id="k2P4R_P{i.lXRU?Z[O`+"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="SeToGdEkVU9yIP`vnzdm">Player</variable><variable type="KIND_SpriteKind" id="Z;4KSKf.:rY_dW;agV$/">Projectile</variable><variable type="KIND_SpriteKind" id="@1?{Of75h+5~z|AT1NQ%">Food</variable><variable type="KIND_SpriteKind" id="IPNVf0hNc=MVF2jNty(s">Enemy</variable><variable id="O:[3r:8j%%*yQe?J%]:8">mySprite</variable><variable id="CT?~[2QWh]Q|z@=5W^~r">mySprite2</variable></variables><block type="pxt-on-start" id="4}?BFoV~7$H6($r*Wy-O" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="k`E4/{HIcj^y^iEY[Z|V"><field name="VAR" id="O:[3r:8j%%*yQe?J%]:8">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="vDWP`1QJvp~T`fHfpW,C"><value name="img"><shadow type="screen_image_picker" id="k2P4R_P{i.lXRU?Z[O`+"><field name="img">img`
 . . . . . . f f f f . . . . . . 
 . . . . f f f 2 2 f f f . . . . 
 . . . f f f 2 2 2 2 f f f . . . 
@@ -15,4 +15,21 @@
 . . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"k2P4R_P{i.lXRU?Z[O`+"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="de3}))lPUamGA9K5B73d"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"k2P4R_P{i.lXRU?Z[O`+"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="de3}))lPUamGA9K5B73d"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="gameinterval" id="P.}]U55(q:pH,y+8-z+m" x="370" y="230"><value name="period"><shadow type="timePicker" id="i};$@/ppu5$a~KRAi=:+"><field name="ms">500</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="+j$p~f=hwi6i;;h.B}^Z"><field name="VAR" id="CT?~[2QWh]Q|z@=5W^~r">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="MJZqfL?/UA*D][xTH3w:"><value name="img"><shadow type="screen_image_picker" id="]0ax2.n6Q7,3:R.g]fTw"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 2 2 2 2 2 2 2 . . . . 
+. . . . 2 2 2 2 2 2 2 2 2 . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . . 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . . . 2 2 2 2 2 2 2 2 2 . . . 
+. . . . . 2 2 2 2 2 2 2 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"]0ax2.n6Q7,3:R.g]fTw"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="1iWN%6Jb8XJP^CuW*~Rl"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
